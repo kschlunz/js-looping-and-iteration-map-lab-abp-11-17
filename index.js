@@ -13,3 +13,9 @@ function nameToAttributes(names){
 
   })
 }
+
+function attributesToPhrase(names, hometown){
+  return names.map(function(name){
+    
+  })
+}
