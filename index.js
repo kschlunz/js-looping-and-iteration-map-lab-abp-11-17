@@ -14,8 +14,12 @@ function nameToAttributes(names){
   })
 }
 
-function attributesToPhrase(names, hometown){
-  return names.map(function(name){
-    
+function attributesToPhrase(names, hometowns){
+  return names.map(function(name,hometown){
+     let fName= name
+     let fHometown=hometown
+     return {NAME: fname, HOMETOWN:fHometown}
   })
+
+  return `${name} is from ${hometown}`
 }
